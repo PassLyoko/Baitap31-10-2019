@@ -5,12 +5,75 @@
 	background: lightgrey;
 	margin: 0 auto;
 }
+.F1 .vungngoai{
+	width: 85%;
+	height: 100px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.vungngoai .text{
+	width: 100%;
+	height: 50px;
+	/*background: gray;*/
+}
+.text h3{
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 0.8rem;
+	text-align: center;
+	text-transform: uppercase;
 
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	/*background: white;*/
+	margin: 0 auto;
+}
+.menu ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*background: red;*/
+}
+.menu ul li{
+	float: left;
+	width: 25%;
+	display: block;
+	/*background: blue;*/
+	height: 100%;
+}
+.menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: yellow;*/
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	color: black;
+	text-transform: capitalize;
+	font-weight: bold;
+	transition: 1s;
+
+}
+
+.menu ul li:hover a{
+	color: red;
+	background: green;
+}
 /*Tablet------------------------------------------*/
 @media screen and (max-width: 980px){
 
 }
 /*SmartPhone--------------------------------------*/
 @media screen and (max-width: 480px){
-	
+	.menu ul li{
+	clear: left;
+	margin: 0 auto;
+	width: 100%;
+}
 }
