@@ -1,0 +1,16 @@
+/*desktop-----------------------------------------*/
+.F1{
+	width: 85%;
+	height: auto;
+	background: lightgrey;
+	margin: 0 auto;
+}
+
+/*Tablet------------------------------------------*/
+@media screen and (max-width: 980px){
+
+}
+/*SmartPhone--------------------------------------*/
+@media screen and (max-width: 480px){
+	
+}
